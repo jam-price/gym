@@ -21,7 +21,7 @@
 }
 
 .hero-img {
-    background-image: url(Media/gym2.jpg);
+    background-image: url('./Media/gym2.jpg');
     background-size: 100vw;
     background-repeat: no-repeat; 
 }
