@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" />
+    <title>Carrie Hill - Actress</title>
+    <link rel="icon" href="Media/Headshot-2.jpg" />
+    <link href="./main.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <header id="header" class="header">
+      <div class="logoContainer">
+        <a id="logo" href="index.html"
+          >Carrie <br />
+          Hill</a
+        >
+      </div>
+      <nav id="nav-bar">
+        <a id="about-btn" class="btn about-btn" href="#about">About</a>
+        <a id="gallery-btn" class="btn gallery-btn" href="#gallery">Gallery</a>
+        <a id="showreel-btn" class="btn showreel-btn" href="#showreel"
+          >Showreel</a
+        >
+        <a id="contact-btn" class="btn contact-btn" href="#contact">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <div id="home" class="section">
+        <div class="headshot">
+          <img src="./Media/Multicolour Headshot.png" />
+        </div>
+        <div class="pageTitle">
+          <h1>Carrie Hill</h1>
+          <h3>Actor</h3>
+        </div>
+      </div>
+      <div id="img1" class=" title-down"></div>
+      <div class="section title-down" id="about">
+        <h1>About</h1>
+        <div class="content">
+          <p>
+            Carrie graduated from Birmingham Theatre School and has been touring
+            and performing for the last 10 years. Most recently she has been
+            gallivanting around the country in Shakespearience (Underbelly), a
+            fun, family show of 3 of Shakespeare’s plays in which she plays over
+            15 characters along with a range of ridiculous accents! The show had
+            a successful run at Edinburgh Festival this year, receiving 4 and 5
+            star reviews, and has toured to venues including London's Southbank
+            and Leicester Square.
+            <br /><br />
+            Other credits include The 39 Steps (Guildhall Theatre), Much Ado
+            About Nothing (RSC's The Dell) Alice's Adventures Underground (The
+            Vaults) and Jack and the Beanstalk (Imagine Theatre). Film and TV
+            credits include Flowers (Channel 4) and short film Hark, Villains,
+            which was selected as part of the London Short Film Festival 2017.
+            <br /><br />
+            Last year she also devised and created her own show in collaboration
+            with Ruffians Theatre, which was part of the first Amplify Festival
+            at Nottingham Playhouse.
+          </p>
+        </div>
+      </div>
+      <div class="section title-down" id="gallery">
+        <h1>Gallery</h1>
+      </div>
+      <div class="section title-down" id="showreel">
+        <h1>Showreel</h1>
+        <div class="showreelContainer">
+          <video
+            src="Carrie Showreel 2020_.mp4"
+            id="playShowreel"
+            controls
+          ></video>
+        </div>
+      </div>
+      <div class="section title-down" id="contact">
+        <h1>Contact me</h1>
+        <div class="contactContainer">
+          <div class="contactDiv">
+            <h2>
+              Email me:
+              <a href="mailto:carrienhill@hotmail.co.uk"
+                >carrienhill@hotmail.co.uk</a
+              >
+            </h2>
+          </div>
+          <div class="contactDiv">
+            <form
+              action="mailto:carrienhill@hotmail.co.uk"
+              method="post"
+              enctype="text/plain"
+            >
+              <input name="name" placeholder="Name" type="text" required />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                required
+              />
+              <textarea
+                required
+                name="Your Message"
+                id=""
+                cols="20"
+                rows="10"
+                placeholder="Send me a message"
+              ></textarea>
+              <br />
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./clickedNavBtnStyling.js"></script>
+  </body>
+</html>
